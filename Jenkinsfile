@@ -1,6 +1,5 @@
 pipeline {
     agent { docker { 
-        label 'windows'
         image 'maven:3.3.3' } }
     stages {
         stage('build') {
